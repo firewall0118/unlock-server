@@ -1,0 +1,63 @@
+<aside>
+  <div id="sidebar" class="nav-collapse " tabindex="5000" style="overflow: hidden; outline: none;">
+    <div class="sidebar-toggle-box">
+      <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation" style="color: #797979;"></div>
+    </div>
+    <!-- sidebar menu start-->
+    <ul class="sidebar-menu" id="nav-accordion">
+      <!--logo start-->
+      <a href="index.html" class="logo">
+       <%= image_tag("logo.png") %>
+      </a>
+      <!--logo end-->
+      <li class="mt">
+        <a href="/profile">
+          <%= image_tag "profilemenu.png",:class =>"img-circle",:width=>"32" %>
+          <h5>My Profile</h5>
+        </a>
+      </li>
+       <li class="sub-menu">
+        <%= link_to unlok_air_index_path(category: 'aircrafts'), class: (request.url.include?('unlok') ? 'active' : '') do %>
+          <%= image_tag("icon2.png") %>
+          <span style="font-weight: bold;">UnlokAir</span>
+        <% end %>
+      </li>
+      <li class="sub-menu">
+        <a href="/comingsoon">
+          <%= image_tag("icon1.png") %>
+          <span>UnlokShop</span>
+        </a>                     
+      </li>
+      <!-- <li class="sub-menu">
+        <a href="/unlokfinance">
+          <%= image_tag("icon3.png") %>
+          <span>Unlok Finance</span>
+        </a>                     
+      </li> -->
+      <li class="sub-menu">
+        <%= link_to new_contact_path do%>
+          <%= image_tag("icon4.png") %>
+          <span>Contact us</span>
+        <% end %>
+      </li>
+      <!-- <li class="sub-menu">
+        <a href="/settings">
+          <%= image_tag("icon5.png") %>
+          <span>Settings</span>
+        </a>
+      </li> -->
+      <li class="sub-menu">
+        <a href="/about_us.html">
+          <%= image_tag("icon9.png") %>
+          <span>About Us</span>
+        </a>
+      </li>
+      <li class="sub-menu">
+        <%= link_to destroy_user_session_path,:method => :delete,:title=>"Return Home" do%>
+          <%= image_tag("icon6.png") %>
+           <span>Logout</span>
+        <% end %>
+      </li>
+    </ul> 
+  </div>
+</aside>

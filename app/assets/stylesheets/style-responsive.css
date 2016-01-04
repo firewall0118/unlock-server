@@ -1,0 +1,452 @@
+@media (max-width: 991px) {
+
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+@media (max-width: 768px) {
+	.secondary-navbar {
+    margin-left: 0px; 
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        position: absolute;
+    }
+	.talign {
+	height:200px !important;
+	}
+    /*sidebar*/
+    .logo img{
+	margin-bottom: 20px;
+	}
+    #sidebar {
+        height: auto;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        z-index: 1001;
+    }
+
+
+    /* body container */
+    #main-content {
+        margin: 0px!important;
+        position: none !important;
+    }
+
+    #sidebar > ul > li > a > span {
+        line-height: 35px;
+    }
+
+    #sidebar > ul > li {
+        margin: 0 10px 5px 10px;
+    }
+    #sidebar > ul > li > a {
+        height:35px;
+        line-height:35px;
+        padding: 0 10px;
+        text-align: left;
+    }
+    #sidebar > ul > li > a i{
+        /*display: none !important;*/
+    }
+
+    #sidebar ul > li > a .arrow, #sidebar > ul > li > a .arrow.open {
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    #sidebar ul > li.active > a .arrow, #sidebar ul > li > a:hover .arrow, #sidebar ul > li > a:focus .arrow,
+    #sidebar > ul > li.active > a .arrow.open, #sidebar > ul > li > a:hover .arrow.open, #sidebar > ul > li > a:focus .arrow.open{
+        margin-top: 15px;
+    }
+
+    #sidebar > ul > li > a, #sidebar > ul > li > ul.sub > li {
+        width: 100%;
+    }
+    #sidebar > ul > li > ul.sub > li > a {
+        background: transparent !important ;
+    }
+    #sidebar > ul > li > ul.sub > li > a:hover {
+        
+    }
+
+    /* sidebar */
+    #sidebar {
+        margin: 0px !important;
+    }
+
+    /* sidebar collabler */
+    #sidebar .btn-navbar.collapsed .arrow {
+        display: none;
+    }
+
+    #sidebar .btn-navbar .arrow {
+        position: absolute;
+        right: 35px;
+        width: 0;
+        height: 0;
+        top:48px;
+        border-bottom: 15px solid #282e36;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+    }
+
+    /*---------*/
+
+    .modal-footer .btn {
+        margin-bottom: 0px !important;
+    }
+
+    /*menu icon plus minus*/
+    ul.sidebar-menu li ul.sub li a {
+        padding: 0;
+    }
+
+}
+@media (max-width: 662px) {
+	.signin-screen {
+    margin-top: 50px;
+	}
+}
+@media (max-width: 600px) {
+	body#signup {
+	background: url("../img/signup_small.jpg");
+	width:100%;
+	}
+	.signin-screen {
+    width: 500px;
+	margin-top: -70px;
+	}
+	.signbtn {
+    padding: 8px 110px;
+	}
+	
+}
+@media (max-width: 564px) {
+.rightdes p.pric {
+    margin-bottom: 0px;
+}
+}
+@media (max-width: 564px) {
+	.certification-cont {
+    margin: 3% 13%;
+	}
+}
+
+@media (max-width: 535px) {
+	.certification-cont {
+    margin: 3% 11%;
+	}
+}
+
+@media (max-width: 510px) {
+	.certification-cont {
+    margin: 3% 10%;
+	}
+	.holder h4.desc {
+    font-size: 17px;
+	}
+	.holder h5.des {
+    font-size: 14px;
+	}
+	.holder .rightdes p.pric {
+    font-size: 18px;
+	}
+	.holder .rightdes {
+    padding-top: 9px;
+}
+}
+@media (max-width: 500px) {
+	.signin-screen {
+    width: 450px;
+    padding: 80px 60px;
+	}
+	.signbtn {
+    width: 100%;
+	}
+}
+@media (max-width: 498px) {
+	.certification-cont {
+	display: block;
+	padding-top: 20px;
+    margin: 0 auto;
+	}
+	.certification-image {
+	display: block;
+	}
+	.certification-image img {
+	display: block;
+	padding-top: 20px;
+    margin: 0 auto;
+	}
+}
+
+@media (max-width: 480px) {
+
+    #top_menu .nav > li, ul.top-menu > li {
+        float: right;
+    }
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background-color: #ccc;
+        border-color:#ccc ;
+    }
+	#title {
+    font-size: 17px;
+	}
+
+}
+@media (max-width: 450px) {
+	.md-button {
+    width: 50px;
+    height: 50px;
+    background: url("bookflighticon-small.png") no-repeat 12px 14px #ffc107;
+	}
+	.signin-screen {
+    width: 420px;
+    padding: 80px 60px;
+	}
+}
+@media (max-width: 430px) {
+	.res {
+	padding-right: 0px !important;
+	}
+	.btn-fab_wrapper {
+    right: 30px;
+	}
+	#airdetails .rows {
+	margin-right: -15px !important;
+	}
+	.other {
+    width: 133px;
+	}
+	.other img {
+    width: 50px;
+	}
+	.btn-fab i img {
+	width: 22px;
+	}
+	.btn-fab {
+    width: 50px;
+    height: 50px;
+    padding: 11px;
+	}
+	holder .rightdes p.pric {
+    font-size: 16px;
+	}
+}
+
+@media (max-width: 420px) {
+	.bfthankyou {
+    margin-left: -148px;
+	}
+	.signin-screen {
+    width: 400px;
+    padding: 80px 40px;
+	}
+}
+@media (max-width: 410px) {
+	.profilecard {
+    width: 96%;
+	}
+    nav.notifications ul li p {
+    width: 86%;;
+	}
+	p.icon img {
+    width: 30px;
+    margin-left: 0px;
+	}
+	#title {
+    font-size: 17px;
+	}
+	.btn-fab_wrapper {
+    right: 20px;
+	}
+	.secondary-navbar >ul>li {
+    width: 160px; 
+	}
+	.bfthankyou {
+    margin-top: 80px;
+	}
+	.holder .leftdes p {
+    color: #6B6A6A;
+    font-size: 15px;
+}
+.holder .rightdes p.pric {
+    font-size: 17px;
+}
+.holder .rightdes {
+    padding-top: 9px;
+}
+.holder .caticon {
+    padding: 9px;
+	}
+.caticon img {
+width: 38px;
+}
+}
+
+@media (max-width: 400px) {
+	.bookflight-content {
+	width: 100%;
+	}
+	label.radiobtn {
+    width: 155px !important;
+	}
+	.bfthankyou {
+    margin-top: 70px;
+	}
+	.signin-screen {
+    width: 360px;
+    padding: 80px 37px;
+	}
+}
+@media (max-width: 390px) {
+	.secondary-navbar >ul>li {
+    width: 150px; 
+	}
+	.btn {
+    padding: 6px 48px;
+	}
+	.info p {
+    font-size: 14px;
+    text-transform: uppercase;
+	}
+	h4.title {
+    font-size: 15px;
+	margin-top: 0px;
+	}	
+	.bookfli .btn-fab {
+    margin: 0px 0 10px;
+    padding: 13px;
+    width: 52px;
+	height: 52px;
+	}
+	.bfthankyou {
+    margin-left: -143px;
+	margin-top: 55px;
+	}
+}
+@media (max-width: 370px) {
+	.secondary-navbar >ul>li {
+    width: 140px; 
+	}
+	.bookfli .btn-fab {
+    margin: 0px 0 10px;
+    padding: 10px;
+    width: 45px;
+	height: 45px;
+	}
+	.bookfli img {
+	width:22px;
+	}
+	.single {
+	width: 170px !important;
+    margin-left: -14px !important;
+	}
+	.holder .caticon {
+    padding: 9px;
+	}
+	.holder .rightdes p.pric {
+    font-size: 16px;
+	}
+}
+@media (max-width: 350px) {
+	p.icon {
+    font-size: 15px;
+	}
+	.tabs label {
+    font-size: 17px;
+	}
+	.holder .leftdes p {
+    font-size: 15px;
+	}
+	.holder .rightdes p.pric {
+    margin-top: 4px;
+	}
+	.secondary-navbar >ul>li {
+    width: 130px; 
+	}
+	.btn {
+    font-size: 13px;
+	}
+	.finance-content {
+    width: 100%;
+	}
+	.finance-content-head {
+    width: 100%;
+	}
+	.finance-bg1 {
+    width: 100%;
+	}
+	.finance-bg1 .triangles {
+	width: 100%;
+	}
+	.contact-content {
+    width: 100%;
+	}
+	.signin-screen {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	}
+	.other {
+    width: 118px;
+}
+}
+@media (max-width: 330px) {
+	.secondary-navbar >ul>li {
+    width: 120px; 
+	}
+	.single {
+    margin-left: -16px !important;
+	}
+	.btnradio {
+    width: 240px;
+    margin: 0 auto
+	}
+	.btnradio label {
+    width: 122px !important;
+	}
+	.holder h4.desc {
+    font-size: 16px;
+	}
+	.caticon img {
+    width: 32px;
+	}
+}
+@media (max-width:320px) {
+    
+    #top_menu .nav > li, ul.top-menu > li {
+        float: right;
+    }
+	.profile-content img {
+    height: 106px;
+    width: 106px;
+	}
+	.profilecircle {
+    width: 119px;
+    height: 50px;
+	}
+	.other {
+    width: 105px;
+	}
+	
+}
+@media (max-width: 310px) {
+	.secondary-navbar >ul>li {
+    width: 110px; 
+	}
+}
+@media (max-width: 300px) {
+	p.icon img {
+    width: 20px;
+	}
+}
+
+
+

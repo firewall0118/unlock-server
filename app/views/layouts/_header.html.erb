@@ -1,0 +1,26 @@
+<header class="header grey-bg">
+ <% if user_signed_in? %> 
+  <div class="sidebar-toggle-box">
+    <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation" style="color: #797979;"></div>
+  </div>
+<% end %>
+    
+  <div class="secondary-navbar">
+    <ul>
+      <li class=<%= (request.url.include?('unlok') && params.include?('category') && params[:category].eql?('aircrafts') ? 'selected' : '') %>>
+       <% air = ItemCategory.find_by(name:'aircrafts') %>
+       <%= link_to air.name, unlok_air_index_path(category: 'aircrafts') %>
+      </li>
+      <li class= <%= (request.url.include?('unlok') && params.include?('category') && params[:category].eql?('helicoptor') ? 'selected' : '') %> >
+        <% heli = ItemCategory.find_by(name:'helicoptor') %>
+        <%= link_to heli.name, unlok_air_index_path(category: 'helicoptor') %>
+      </li>
+      
+       <% unless user_signed_in? %>
+        <li>
+          <%= link_to "Login", new_user_session_path %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</header>

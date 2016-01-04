@@ -1,0 +1,31 @@
+<section id="main-content">
+  <section class="wrapper" >
+    <h3></h3>
+    <div class="rows mt">
+      <div class="col-lg-12 scrollable_images">
+        <% @item.pictures.each do |p| %>
+            <%= image_tag(p.image.url) rescue nil%>
+            <h6></h6>
+        <% end %>
+      </div>  
+      <div class="col-lg-12">
+        <div class="card">
+          <p>Product Name  :  </span><%= @item.name %></p>
+          <div class="form-content">
+            <h4 class="title">Flight specifications</h4>
+            <hr>
+            <div class="row">
+              <div class="col-sm-12 info">
+              <% @item.item_specifications.each do |spec| %>
+                <p><%= spec.skey %>:<span><%= spec.svalue %></span></p>
+              <% end %>
+              </div>
+            </div>
+            <br>
+            <%= link_to 'Book a flight', new_booking_path, class: 'btn', style: 'width: 250px' %>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+</section>
